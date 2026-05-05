@@ -27,7 +27,7 @@ int main() {
 
     char grade = getGrade(score);
 
-    if (grade == "A") {
+    if (grade == 'A') {
         cout << "Отличен!" << endl;
     } else if (grade == 'F') {
         cout << "Слаб" << endl;
